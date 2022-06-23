@@ -172,10 +172,14 @@ hr {
 //End of team section
 //powers section
 #Power {
+  text-align: center;
+
   .powerContent {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin-bottom: 100px;
 
     .leftContent {
@@ -185,7 +189,6 @@ hr {
         font-size: 35px;
         font-weight: bold;
         color: $primary-color;
-        max-width: 400px;
         margin-bottom: 40px;
       }
 
@@ -193,6 +196,7 @@ hr {
         max-width: 550px;
         font-size: 22px;
         color: $sec-color;
+        text-align: center;
       }
     }
 
@@ -254,6 +258,13 @@ hr {
 
 //working section
 #Working {
+  .title-W {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    color: $primary-color;
+  }
+
   .WorkingContent {
     display: flex;
     flex-wrap: wrap;
@@ -261,26 +272,58 @@ hr {
     align-items: center;
 
     .leftContent {
-      .title {
-        font-size: 35px;
-        font-weight: bold;
-        color: $primary-color;
-        max-width: 400px;
-        margin-bottom: 40px;
+      position: relative;
+
+      img {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
       }
 
-      .text {
-        max-width: 532px;
-        font-size: 22px;
-        color: $sec-color;
+      .color {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #ec5242;
+        mix-blend-mode: multiply;
       }
 
-      margin-bottom: 40px;
+      h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: white;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+      }
     }
 
     .rightContent {
+      position: relative;
+
       img {
         width: 100%;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .color {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #ec5242;
+        mix-blend-mode: multiply;
+      }
+
+      h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: white;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
       }
     }
   }
@@ -288,12 +331,12 @@ hr {
 
 @media (max-width: 800px) {
   #Working {
+    .title-W {
+      font-size: 30px;
+    }
+
     .WorkingContent {
       .leftContent {
-        .title {
-          font-size: 30px;
-        }
-
         .text {
           font-size: 16px;
           text-align: justify;
