@@ -544,28 +544,25 @@ a {
   padding: 80px 0;
   margin-top: 160px;
 
+  .titleNUmbre {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+
   .numbersContent {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    justify-content: space-between;
-    gap: 80px;
+    justify-content: space-around;
+    gap: 20px;
 
-    .number {
-      margin: 0 auto;
-
-      .titleNumber {
-        font-size: 60px;
-        color: #ffff;
-        font-weight: bold;
-      }
-
-      .textNumber {
-        font-size: 20px;
-        font-weight: bold;
-        color: #807f7f;
-      }
+    .partner {
+      font-size: 25px;
+      color: #828282;
+      text-transform: uppercase;
+      font-weight: bold;
     }
   }
 }
@@ -774,6 +771,9 @@ a {
     }
   }
   // End of Developers Section
+  //Numbers
+
+  //End of Numbers
   //footer
   #Footer {
     ._container {

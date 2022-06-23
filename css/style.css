@@ -523,29 +523,26 @@ a {
   margin-top: 160px;
 }
 
+#Numbers .titleNUmbre {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
 #Numbers .numbersContent {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   text-align: center;
-  justify-content: space-between;
-  gap: 80px;
+  justify-content: space-around;
+  gap: 20px;
 }
 
-#Numbers .numbersContent .number {
-  margin: 0 auto;
-}
-
-#Numbers .numbersContent .number .titleNumber {
-  font-size: 60px;
-  color: white;
+#Numbers .numbersContent .partner {
+  font-size: 25px;
+  color: #828282;
+  text-transform: uppercase;
   font-weight: bold;
-}
-
-#Numbers .numbersContent .number .textNumber {
-  font-size: 20px;
-  font-weight: bold;
-  color: #807f7f;
 }
 
 @media (min-width: 986px) {
