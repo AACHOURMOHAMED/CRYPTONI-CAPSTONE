@@ -55,30 +55,6 @@ hr {
   }
 }
 
-#Footer {
-  background-color: #272a31;
-  margin-top: 50px;
-}
-
-#Footer ._container {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-}
-
-#Footer ._container span {
-  font-size: 15px;
-  color: white;
-}
-
-#Footer ._container .logos {
-  font-size: 20px;
-  font-family: "lato", sans-serif;
-  font-weight: 900;
-  color: #ec5242;
-}
-
 #Team .TeamContent .title {
   font-size: 35px;
   font-weight: bold;
@@ -178,26 +154,18 @@ hr {
 }
 
 #Power .powerContent .rightContent .back {
-  width: 167px;
-  height: 157px;
   box-shadow: rgba(0, 0, 0, 0.2) 0 5px 10px;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 90px 40px;
 }
 
-#Power .powerContent .rightContent .back .top {
-  font-size: 36px;
-  font-weight: bold;
-  color: #272a31;
-}
-
-#Power .powerContent .rightContent .back .desc {
-  font-size: 16px;
-  font-weight: bold;
-  color: #807f7f;
+#Power .powerContent .rightContent .back .logoback {
+  font-size: 50px;
+  color: #ec5242;
 }
 
 @media (max-width: 800px) {
@@ -208,10 +176,6 @@ hr {
   #Power .powerContent .leftContent .text {
     font-size: 16px;
     text-align: justify;
-  }
-
-  #Power .powerContent .rightContent .back {
-    max-width: 150px;
   }
 }
 
@@ -227,6 +191,7 @@ hr {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 #Working .WorkingContent .leftContent {
@@ -257,6 +222,15 @@ hr {
   font-size: 30px;
 }
 
+#Working .WorkingContent .leftContent .paragraphe {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  font-size: 11px;
+}
+
 #Working .WorkingContent .rightContent {
   position: relative;
 }
@@ -283,6 +257,15 @@ hr {
   color: white;
   transform: translate(-50%, -50%);
   font-size: 30px;
+}
+
+#Working .WorkingContent .rightContent .paragraphe {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  font-size: 11px;
 }
 
 @media (max-width: 800px) {

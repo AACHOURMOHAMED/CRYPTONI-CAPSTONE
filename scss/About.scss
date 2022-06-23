@@ -75,30 +75,7 @@ hr {
     }
   }
 }
-//End of hero section
-#Footer {
-  background-color: $sec-color;
-  margin-top: 50px;
 
-  ._container {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
-
-    span {
-      font-size: 15px;
-      color: white;
-    }
-
-    .logos {
-      font-size: 20px;
-      font-family: $primary-font;
-      font-weight: 900;
-      color: $primary-color;
-    }
-  }
-}
 //team section
 #Team {
   .TeamContent {
@@ -207,25 +184,17 @@ hr {
       gap: 20px;
 
       .back {
-        width: 167px;
-        height: 157px;
         box-shadow: $shadow;
         background-color: #ffff;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 90px 40px;
 
-        .top {
-          font-size: 36px;
-          font-weight: bold;
-          color: $sec-color;
-        }
-
-        .desc {
-          font-size: 16px;
-          font-weight: bold;
-          color: #807f7f;
+        .logoback {
+          font-size: 50px;
+          color: $primary-color;
         }
       }
     }
@@ -243,12 +212,6 @@ hr {
         .text {
           font-size: 16px;
           text-align: justify;
-        }
-      }
-
-      .rightContent {
-        .back {
-          max-width: 150px;
         }
       }
     }
@@ -270,6 +233,7 @@ hr {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 
     .leftContent {
       position: relative;
@@ -296,6 +260,15 @@ hr {
         color: white;
         transform: translate(-50%, -50%);
         font-size: 30px;
+      }
+
+      .paragraphe {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        color: white;
+        transform: translate(-50%, -50%);
+        font-size: 11px;
       }
     }
 
@@ -324,6 +297,15 @@ hr {
         color: white;
         transform: translate(-50%, -50%);
         font-size: 30px;
+      }
+
+      .paragraphe {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        color: white;
+        transform: translate(-50%, -50%);
+        font-size: 11px;
       }
     }
   }
