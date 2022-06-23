@@ -1,0 +1,296 @@
+$heroImage: url(../assests/hero.svg);
+$primary-color: #ec5242;
+$sec-color: #272a31;
+$back-color: #f2f2f2;
+$shadow: rgba(0, 0, 0, 0.2) 0 5px 10px;
+$primary-font: "lato", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+hr {
+  width: 100%;
+  border: 0;
+  height: 3px;
+  background-color: #efa19a;
+  margin-bottom: 60px;
+}
+
+//header
+#header {
+  .header {
+    #nav {
+      .navItemsDesktop {
+        .Items:first-child a {
+          color: $primary-color !important;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+//End header
+//Hero section
+#About {
+  margin-top: 130px;
+
+  .aboutContent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    .aboutTitle {
+      font-size: 60px;
+      font-weight: bold;
+      color: $primary-color;
+      font-family: $primary-font;
+    }
+
+    .aboutDescription {
+      max-width: 805px;
+      font-size: 22px;
+      font-weight: 400;
+      color: $sec-color;
+      margin-bottom: 150px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  #About {
+    .aboutContent {
+      .aboutTitle {
+        font-size: 32px;
+      }
+
+      .aboutDescription {
+        font-size: 16px;
+        text-align: justify;
+      }
+    }
+  }
+}
+//End of hero section
+#Footer {
+  background-color: $sec-color;
+  margin-top: 50px;
+
+  span {
+    color: #fff;
+  }
+}
+//team section
+#Team {
+  .TeamContent {
+    .title {
+      font-size: 35px;
+      font-weight: bold;
+      color: $primary-color;
+      max-width: 400px;
+      margin-bottom: 40px;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-bottom: 60px;
+
+      .teamcard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 50px;
+
+        span {
+          font-size: 31px;
+          font-weight: bold;
+          font-family: $primary-font;
+          color: $sec-color;
+        }
+
+        p {
+          max-width: 180px;
+          font-size: 16px;
+          font-weight: bold;
+          color: #807f7f;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  #Team {
+    .TeamContent {
+      .title {
+        font-size: 30px;
+      }
+
+      .cards {
+        .teamcard {
+          max-width: 120px;
+
+          img {
+            max-width: 130px;
+          }
+
+          span {
+            font-size: 17px;
+          }
+
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+//End of team section
+//powers section
+#Power {
+  .powerContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+
+    .leftContent {
+      margin-bottom: 40px;
+
+      .title {
+        font-size: 35px;
+        font-weight: bold;
+        color: $primary-color;
+        max-width: 400px;
+        margin-bottom: 40px;
+      }
+
+      .text {
+        max-width: 550px;
+        font-size: 22px;
+        color: $sec-color;
+      }
+    }
+
+    .rightContent {
+      max-width: 551px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      .back {
+        width: 167px;
+        height: 157px;
+        box-shadow: $shadow;
+        background-color: #ffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .top {
+          font-size: 36px;
+          font-weight: bold;
+          color: $sec-color;
+        }
+
+        .desc {
+          font-size: 16px;
+          font-weight: bold;
+          color: #807f7f;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  #Power {
+    .powerContent {
+      .leftContent {
+        .title {
+          font-size: 30px;
+        }
+
+        .text {
+          font-size: 16px;
+          text-align: justify;
+        }
+      }
+
+      .rightContent {
+        .back {
+          max-width: 150px;
+        }
+      }
+    }
+  }
+}
+//End of powers section
+
+//working section
+#Working {
+  .WorkingContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    .leftContent {
+      .title {
+        font-size: 35px;
+        font-weight: bold;
+        color: $primary-color;
+        max-width: 400px;
+        margin-bottom: 40px;
+      }
+
+      .text {
+        max-width: 532px;
+        font-size: 22px;
+        color: $sec-color;
+      }
+
+      margin-bottom: 40px;
+    }
+
+    .rightContent {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  #Working {
+    .WorkingContent {
+      .leftContent {
+        .title {
+          font-size: 30px;
+        }
+
+        .text {
+          font-size: 16px;
+          text-align: justify;
+        }
+      }
+
+      .rightContent {
+        .back {
+          max-width: 150px;
+        }
+      }
+    }
+  }
+}
+//End of working section

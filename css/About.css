@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+hr {
+  width: 100%;
+  border: 0;
+  height: 3px;
+  background-color: #efa19a;
+  margin-bottom: 60px;
+}
+
+#header .header #nav .navItemsDesktop .Items:first-child a {
+  color: #ec5242 !important;
+  font-weight: bold;
+}
+
+#About {
+  margin-top: 130px;
+}
+
+#About .aboutContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+#About .aboutContent .aboutTitle {
+  font-size: 60px;
+  font-weight: bold;
+  color: #ec5242;
+  font-family: "lato", sans-serif;
+}
+
+#About .aboutContent .aboutDescription {
+  max-width: 805px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #272a31;
+  margin-bottom: 150px;
+}
+
+@media (max-width: 800px) {
+  #About .aboutContent .aboutTitle {
+    font-size: 32px;
+  }
+
+  #About .aboutContent .aboutDescription {
+    font-size: 16px;
+    text-align: justify;
+  }
+}
+
+#Footer {
+  background-color: #272a31;
+  margin-top: 50px;
+}
+
+#Footer span {
+  color: #fff;
+}
+
+#Team .TeamContent .title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #ec5242;
+  max-width: 400px;
+  margin-bottom: 40px;
+}
+
+#Team .TeamContent .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+#Team .TeamContent .cards .teamcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+#Team .TeamContent .cards .teamcard span {
+  font-size: 31px;
+  font-weight: bold;
+  font-family: "lato", sans-serif;
+  color: #272a31;
+}
+
+#Team .TeamContent .cards .teamcard p {
+  max-width: 180px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #807f7f;
+}
+
+@media (max-width: 800px) {
+  #Team .TeamContent .title {
+    font-size: 30px;
+  }
+
+  #Team .TeamContent .cards .teamcard {
+    max-width: 120px;
+  }
+
+  #Team .TeamContent .cards .teamcard img {
+    max-width: 130px;
+  }
+
+  #Team .TeamContent .cards .teamcard span {
+    font-size: 17px;
+  }
+
+  #Team .TeamContent .cards .teamcard p {
+    font-size: 14px;
+  }
+}
+
+#Power .powerContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+#Power .powerContent .leftContent {
+  margin-bottom: 40px;
+}
+
+#Power .powerContent .leftContent .title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #ec5242;
+  max-width: 400px;
+  margin-bottom: 40px;
+}
+
+#Power .powerContent .leftContent .text {
+  max-width: 550px;
+  font-size: 22px;
+  color: #272a31;
+}
+
+#Power .powerContent .rightContent {
+  max-width: 551px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#Power .powerContent .rightContent .back {
+  width: 167px;
+  height: 157px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 5px 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#Power .powerContent .rightContent .back .top {
+  font-size: 36px;
+  font-weight: bold;
+  color: #272a31;
+}
+
+#Power .powerContent .rightContent .back .desc {
+  font-size: 16px;
+  font-weight: bold;
+  color: #807f7f;
+}
+
+@media (max-width: 800px) {
+  #Power .powerContent .leftContent .title {
+    font-size: 30px;
+  }
+
+  #Power .powerContent .leftContent .text {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  #Power .powerContent .rightContent .back {
+    max-width: 150px;
+  }
+}
+
+#Working .WorkingContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Working .WorkingContent .leftContent {
+  margin-bottom: 40px;
+}
+
+#Working .WorkingContent .leftContent .title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #ec5242;
+  max-width: 400px;
+  margin-bottom: 40px;
+}
+
+#Working .WorkingContent .leftContent .text {
+  max-width: 532px;
+  font-size: 22px;
+  color: #272a31;
+}
+
+#Working .WorkingContent .rightContent img {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  #Working .WorkingContent .leftContent .title {
+    font-size: 30px;
+  }
+
+  #Working .WorkingContent .leftContent .text {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  #Working .WorkingContent .rightContent .back {
+    max-width: 150px;
+  }
+}
