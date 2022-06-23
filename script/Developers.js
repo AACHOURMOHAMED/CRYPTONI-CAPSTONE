@@ -1,6 +1,6 @@
 const data = [
   {
-    icon: '../assests/Developers/serveur.svg',
+    icon: 'assests/Developers/serveur.svg',
     title: 'Cloud',
     titre: 'Suite of APIs and mode infrastructure',
     line: '',
@@ -8,7 +8,7 @@ const data = [
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. A perspiciatis quos sit consectetur molestias praesentium',
   },
   {
-    icon: '../assests/Developers/online-shopping.svg',
+    icon: 'assests/Developers/online-shopping.svg',
     title: 'Commerce',
     titre: 'Accept crypto payments from customers',
     line: '',
@@ -16,7 +16,7 @@ const data = [
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. A perspiciatis quos sit consectetur molestias praesentium ',
   },
   {
-    icon: '../assests/Developers/wallet.svg',
+    icon: 'assests/Developers/wallet.svg',
     title: 'Wallet SDK',
     titre: 'Link dapps to Coinbase Wallet',
     line: '',
@@ -24,7 +24,7 @@ const data = [
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. A perspiciatis quos sit consectetur molestias praesentium ',
   },
   {
-    icon: '../assests/Developers/exchange.svg',
+    icon: 'assests/Developers/exchange.svg',
     title: 'Exchange & Pro',
     titre: 'Power automated trading',
     line: '',
@@ -32,7 +32,7 @@ const data = [
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. A perspiciatis quos sit consectetur molestias praesentium ',
   },
   {
-    icon: '../assests/Developers/investment.svg',
+    icon: 'assests/Developers/investment.svg',
     title: 'Coinbase Pay SDK',
     titre: 'Easy, secure fiat-to-crypto solution',
     line: '',
@@ -40,7 +40,7 @@ const data = [
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. A perspiciatis quos sit consectetur molestias praesentium ',
   },
   {
-    icon: '../assests/Developers/searching.svg',
+    icon: 'assests/Developers/searching.svg',
     title: 'Query & Transact',
     titre: 'Read and write blockchain data',
     line: '',

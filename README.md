@@ -10,9 +10,11 @@ This project is part of the Microverse curriculum. The main objective is to deve
 
 ## Live Preview
 
+https://aachourmohamed.github.io/CRYPTONI-CAPSTONE/
+
 ## Built With
 
-- Html/Css
+- Html/Css(scss)
 - Vanilla JavaScript
 
 ## Additional Tools
