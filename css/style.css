@@ -18,6 +18,52 @@ a {
   text-decoration: none;
 }
 
+.topHeader {
+  background-color: #272a31;
+  width: 100%;
+  top: 0;
+  padding: 15px 0;
+}
+
+.topHeader .content {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: end;
+  max-width: 1108px;
+  width: 90%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.topHeader .content span {
+  color: white;
+  font-weight: bold;
+  font-family: "lato", sans-serif;
+}
+
+.topHeader .content i {
+  color: white;
+}
+
+#Footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+#Footer span {
+  font-size: 11px;
+  font-weight: bold;
+  color: #272a31;
+  text-align: center;
+}
+
+#Footer .logos {
+  color: #ec5242;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
 #header {
   box-shadow: rgba(0, 0, 0, 0.2) 0 5px 10px;
   padding: 20px 0;
@@ -26,14 +72,18 @@ a {
   top: 0;
 }
 
+#header .header {
+  min-height: 30px;
+}
+
 #header .header .hamberger {
   position: absolute;
   display: flex;
   flex-direction: column;
   gap: 6px;
-  text-align: end;
-  align-items: flex-end;
-  right: 10%;
+  text-align: start;
+  align-items: flex-start;
+  left: 10%;
   z-index: 2;
   cursor: pointer;
 }
@@ -81,6 +131,7 @@ a {
 }
 
 #header .header #nav .logo {
+  display: none;
   font-size: 18px;
   font-family: "lato", sans-serif;
   font-weight: 900;
@@ -497,18 +548,6 @@ a {
   color: #807f7f;
 }
 
-#Footer {
-  padding: 20px 0;
-  text-align: center;
-}
-
-#Footer span {
-  font-size: 11px;
-  font-weight: bold;
-  color: #272a31;
-  text-align: center;
-}
-
 @media (min-width: 986px) {
   #header {
     padding: 20px 0;
@@ -516,6 +555,10 @@ a {
 
   #header .header .hamberger {
     display: none;
+  }
+
+  #header .header #nav .logo {
+    display: block;
   }
 
   #header .header #nav .navItemsDesktop {
@@ -659,7 +702,21 @@ a {
     display: none;
   }
 
-  #Footer span {
+  #Footer ._container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Footer ._container span {
     font-size: 20px;
+  }
+
+  #Footer ._container .logos {
+    font-size: 20px;
+    font-family: "lato", sans-serif;
+    font-weight: 900;
+    color: #ec5242;
   }
 }

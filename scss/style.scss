@@ -25,6 +25,54 @@ a {
   text-decoration: none;
 }
 // header section
+.topHeader {
+  background-color: $sec-color;
+  width: 100%;
+  top: 0;
+  padding: 15px 0;
+
+  .content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: end;
+    max-width: 1108px;
+    width: 90%;
+    margin: 0 auto;
+    gap: 20px;
+
+    span {
+      color: #ffff;
+      font-weight: bold;
+      font-family: $primary-font;
+    }
+
+    i {
+      color: #ffff;
+    }
+  }
+}
+
+//Footer section
+#Footer {
+  padding: 20px 0;
+  text-align: center;
+
+  span {
+    font-size: 11px;
+    font-weight: bold;
+    color: $sec-color;
+    text-align: center;
+  }
+
+  .logos {
+    color: $primary-color;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+}
+//End of Footer section
+
 #header {
   box-shadow: $shadow;
   padding: 20px 0;
@@ -33,14 +81,16 @@ a {
   top: 0;
 
   .header {
+    min-height: 30px;
+
     .hamberger {
       position: absolute;
       display: flex;
       flex-direction: column;
       gap: 6px;
-      text-align: end;
-      align-items: flex-end;
-      right: 10%;
+      text-align: start;
+      align-items: flex-start;
+      left: 10%;
       z-index: 2;
       cursor: pointer;
 
@@ -87,6 +137,7 @@ a {
       align-items: center;
 
       .logo {
+        display: none;
         font-size: 18px;
         font-family: $primary-font;
         font-weight: 900;
@@ -520,20 +571,6 @@ a {
 }
 //End of Numbers section
 
-//Footer section
-#Footer {
-  padding: 20px 0;
-  text-align: center;
-
-  span {
-    font-size: 11px;
-    font-weight: bold;
-    color: $sec-color;
-    text-align: center;
-  }
-}
-//End of Footer section
-
 //desktop version
 @media (min-width: 986px) {
   //header section
@@ -546,6 +583,10 @@ a {
       }
 
       #nav {
+        .logo {
+          display: block;
+        }
+
         .navItemsDesktop {
           display: flex;
           align-items: center;
@@ -713,8 +754,22 @@ a {
   // End of Developers Section
   //footer
   #Footer {
-    span {
-      font-size: 20px;
+    ._container {
+      display: flex;
+      gap: 50px;
+      justify-content: center;
+      align-items: center;
+
+      span {
+        font-size: 20px;
+      }
+
+      .logos {
+        font-size: 20px;
+        font-family: $primary-font;
+        font-weight: 900;
+        color: $primary-color;
+      }
     }
   }
   //End of footer

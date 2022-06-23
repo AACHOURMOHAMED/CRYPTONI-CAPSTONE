@@ -80,8 +80,23 @@ hr {
   background-color: $sec-color;
   margin-top: 50px;
 
-  span {
-    color: #fff;
+  ._container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      font-size: 15px;
+      color: white;
+    }
+
+    .logos {
+      font-size: 20px;
+      font-family: $primary-font;
+      font-weight: 900;
+      color: $primary-color;
+    }
   }
 }
 //team section
