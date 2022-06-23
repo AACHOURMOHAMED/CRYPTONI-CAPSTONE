@@ -282,3 +282,31 @@ hr {
     max-width: 150px;
   }
 }
+
+#Numbers {
+  background-color: #272a31;
+  padding: 80px 0;
+  margin-top: 160px;
+}
+
+#Numbers .titleNUmbre {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+#Numbers .numbersContent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+#Numbers .numbersContent .partner {
+  font-size: 25px;
+  color: #828282;
+  text-transform: uppercase;
+  font-weight: bold;
+}

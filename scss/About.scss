@@ -334,3 +334,32 @@ hr {
   }
 }
 //End of working section
+//Numbers section
+#Numbers {
+  background-color: $sec-color;
+  padding: 80px 0;
+  margin-top: 160px;
+
+  .titleNUmbre {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .numbersContent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    gap: 20px;
+
+    .partner {
+      font-size: 25px;
+      color: #828282;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+}
+//End of Numbers section
