@@ -10,7 +10,15 @@ This project is part of the Microverse curriculum. The main objective is to deve
 
 ## Live Preview
 
-https://aachourmohamed.github.io/CRYPTONI-CAPSTONE/
+[LIVE DEMO](https://aachourmohamed.github.io/CRYPTONI-CAPSTONE/)
+
+>![pc1](https://user-images.githubusercontent.com/92208712/196395030-f1ddde0f-7ad7-407a-9b8b-b80ea7916dc9.png)
+
+>![pc2](https://user-images.githubusercontent.com/92208712/196395068-5914c6ce-cb30-4eda-a8f5-3b8dfa3caef0.png)
+
+>![pc3](https://user-images.githubusercontent.com/92208712/196395096-bb4650fe-f657-4f38-a1da-64250084731e.png)
+
+>![pc4](https://user-images.githubusercontent.com/92208712/196395128-19c9e936-dc3d-4cc3-9036-037ab3d96bb7.png)
 
 ## Built With
 
